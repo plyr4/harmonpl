@@ -9,8 +9,14 @@ import (
 )
 
 var things = map[string]string{
-	"projector":   "projector.tmpl",
-	"powermaster": "powermaster.tmpl",
+	"projector":      "projector.tmpl",
+	"powermaster":    "powermaster.tmpl",
+	"recordplayer":   "recordplayer.tmpl",
+	"pool":           "pool.tmpl",
+	"nintendoswitch": "nintendoswitch.tmpl",
+	"soup":           "soup.tmpl",
+	"monsterra":      "monsterra.tmpl",
+	"onitama":        "onitama.tmpl",
 }
 
 func thingsHandler(c *gin.Context) {

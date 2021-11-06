@@ -20,11 +20,11 @@ func Run(port string) error {
 	router.Static("/assets", "./assets")
 
 	// health endpoint
-	router.GET("/health", healthHandler)
+	router.GET("/harmonpl/health", healthHandler)
 
 	// things endpoints
-	router.GET("/things", thingsHandler)
-	router.GET("/things/:thing", thingHandler)
+	router.GET("/harmonpl/things", thingsHandler)
+	router.GET("/harmonpl/things/:thing", thingHandler)
 
 	var tomb tomb.Tomb
 
