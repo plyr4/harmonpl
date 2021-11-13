@@ -10,6 +10,7 @@ const clue = (<Clue
 
 
 function Projector() {
+    
     return (
         <div className="Projector">
             <h2>Our Home Theater
