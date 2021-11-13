@@ -23,8 +23,6 @@ class EvilPowerMaster extends React.Component {
         return (<div>
             <h2>A Date with Destiny
             </h2>
-            <p>Music fills the air and dancing fills the kitchen.
-            </p>
             <p>"<strong>HA HAH AH AHA HA YOU THOUGHT YOU SAW THE LAST OF ME?</strong>"</p>
             <p>"<strong>DONT MAKE ME LAUGH!</strong>"</p>
             <p>
