@@ -12,13 +12,13 @@ class EvilPowerMaster extends React.Component {
         label={<span><strong>Click Here</strong> for your next clue</span>}
         content={<span>Draw the shades, pop some popcorn, and forget the outside world even exists.</span>} />)
 
-    // constructor(props) {
-    //     super(props);
-    //     this.state = {
-    //         choice: -1,
-    //         roll: -1
-    //     };
-    // }
+    constructor(props) {
+        super(props);
+        this.state = {
+            choice: -1,
+            roll: -1
+        };
+    }
     render() {
         return (<div>
             <h2>A Date with Destiny
