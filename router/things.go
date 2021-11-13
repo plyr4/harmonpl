@@ -17,6 +17,15 @@ var things = map[string]string{
 	"soup":           "soup.tmpl",
 	"monsterra":      "monsterra.tmpl",
 	"onitama":        "onitama.tmpl",
+	"photohall":      "photohall.tmpl",
+}
+
+type State struct {
+	Roll int `json:"roll"`
+}
+
+var state = State{
+	Roll: -1,
 }
 
 func thingsHandler(c *gin.Context) {
@@ -39,5 +48,7 @@ func thingHandler(c *gin.Context) {
 		return
 	}
 
-	c.HTML(http.StatusOK, thing, gin.H{})
+	c.HTML(http.StatusOK, thing, gin.H{
+		"roll": state.Roll,
+	})
 }

@@ -1,5 +1,8 @@
 {{ define "powermaster.tmpl" }}
-<html><h1>
+<html>
+<script src="/assets/scripts/powermaster.js">  
+</script>  
+<h1>
 	{{ .thing }}
 </h1>
 <body>
@@ -20,7 +23,8 @@
 
   <i>He lifts his wrinkled fist and begins winding up a powerful blow.</i>
   <i>Dante dodges his swing and aims his blaster.</i>
-  <p><button>Roll to Hit</button></p>
+  <p><button onclick="roll()">Roll to Hit</button></p>
+  <p>{{ .roll }}</p>
   <p>Uh oh... Not good enough! Try again.</p>
 </body>
 <details>
