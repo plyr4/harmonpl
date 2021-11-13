@@ -8,26 +8,31 @@ function Home() {
 
   return (
     <div className="Home">
+      <h2>
+          Welcome to <code>1204 Harmon Place</code>
+        </h2>
       <header className="ApHomep-header">
         <img width="480px" src={harmonplPic} className="Home-logo" alt="logo" />
-        <p>
-          Welcome to <code>1204 Harmon Place</code>.
-        </p>
       </header>
       <div>
+      <br />
+        <h3><strong>What is this?</strong></h3>
         <p>
-          It's basically a scavenger hunt, mixed with some cute memories and homages to our adventures together so far.
+          It's a scavenger hunt built from favorite memories and homages to our adventures together so far.
         </p>
         <br />
         <h3><strong>How to Play</strong></h3>
         <p>
-          I've hidden sticky-notes on the bottom of certain objects all around the apartment.
+          I've placed sticky-notes on the bottom of certain objects hidden all around the apartment.
         </p>
         <p>
-          Once you find a sticky-note, it will have a <code><strong>URL</strong></code> written on it.
+          Once you find a sticky-note, it will have a <code><strong>CODE</strong></code> written on it.
         </p>
         <p>
-          Go to that page on your computer or your phone, check for the next clue, then find the next thing around the house.
+          Head to the bottom of this page (or any page of this site) and enter the code from the sticky note.</p>
+          <p>Click GO. If you entered a valid code, it will send you to the next part of the adventure.
+          </p>
+          <p>Look for the next clue at the bottom of each page, then go searching! Don't worry, they should be pretty obvious.
         </p>
         {clue}
       </div>
