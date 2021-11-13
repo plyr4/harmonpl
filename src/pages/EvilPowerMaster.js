@@ -12,13 +12,13 @@ class EvilPowerMaster extends React.Component {
         label={<span><strong>Click Here</strong> for your next clue</span>}
         content={<span>Draw the shades, pop some popcorn, and forget the outside world even exists.</span>} />)
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            choice: -1,
-            roll: -1
-        };
-    }
+    // constructor(props) {
+    //     super(props);
+    //     this.state = {
+    //         choice: -1,
+    //         roll: -1
+    //     };
+    // }
     render() {
         return (<div>
             <h2>A Date with Destiny
@@ -28,7 +28,7 @@ class EvilPowerMaster extends React.Component {
             <p>"<strong>HA HAH AH AHA HA YOU THOUGHT YOU SAW THE LAST OF ME?</strong>"</p>
             <p>"<strong>DONT MAKE ME LAUGH!</strong>"</p>
             <p>
-                <img width="480px" src="https://spikeybits.com/wp-content/uploads/2019/04/Screenshot_991.jpg" />
+                <img alt="evilpowermaster" width="480px" src="https://spikeybits.com/wp-content/uploads/2019/04/Screenshot_991.jpg" />
             </p>
             <br />
             <br />
@@ -37,7 +37,7 @@ class EvilPowerMaster extends React.Component {
             <p>"<strong>DANTE THE METALLIC</strong> IS HERE TO SAVE THE GALAXY"
             </p>
             <p>
-                <img src={Dante} />
+                <img alt="dante" src={Dante} />
             </p>
             <br />
             <p>The Evil Power Master takes one look at your shiny chassis and lets out a wild cackle.

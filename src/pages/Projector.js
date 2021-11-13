@@ -17,7 +17,7 @@ function Projector() {
             <p> One of my favorite places, especially when we could use some time away.
             </p>
             <p>
-                <img src="https://c.tenor.com/kWQMS3NAPPAAAAAM/madonna-maverick-management.gif" />
+                <img alt="theater" src="https://c.tenor.com/kWQMS3NAPPAAAAAM/madonna-maverick-management.gif" />
             </p>
 
 
