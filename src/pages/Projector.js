@@ -15,7 +15,7 @@ function Projector() {
         <div className="Projector">
             <h2>Our Home Theater
             </h2>
-            <p> One of my favorite places, especially when we could use some time away.
+            <p> One of my favorite places on Earth, especially when we could use a bit of time away.
             </p>
             <p>
                 <img alt="theater" src="https://c.tenor.com/kWQMS3NAPPAAAAAM/madonna-maverick-management.gif" />
@@ -26,8 +26,8 @@ function Projector() {
             </p>
 
             <iframe
-                width="853"
-                height="480"
+                width="480"
+                height="360"
                 src={`https://www.youtube.com/embed/fr9NyhPJ2Pk`}
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -39,10 +39,9 @@ function Projector() {
             <br />
             <p> You can be the pot OR the kettle, biotch!
             </p>
-            <br />
             <iframe
-                width="853"
-                height="480"
+                width="480"
+                height="360"
                 src={`https://www.youtube.com/embed/w1NXB6Bhl6I`}
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

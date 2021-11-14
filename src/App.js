@@ -16,7 +16,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/projector" element={<Projector />} />
           <Route exact path="/evilpowermaster" element={<EvilPowerMaster />} />
-          <Route exact path="/recordplayer" element={<RecordPlayer />} />
+          <Route exact path="/tunes" element={<RecordPlayer />} />
           <Route exact path="/dunkpool" element={<DunkPool />} />
           <Route exact path="/bubbybed" element={<BubbyBed />} />
           <Route exact path="/colorado" element={<Colorado />} />
