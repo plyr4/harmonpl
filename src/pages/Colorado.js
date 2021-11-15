@@ -2,10 +2,9 @@
 
 // Import Swiper styles
 // Import Swiper React components
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Navigation, Pagination, Scrollbar } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper-bundle.min.css';
-import 'swiper/swiper.min.css';
 import Clue from '../Clue.js';
 import City1 from '../img/colorado/city1.jpg';
 import City2 from '../img/colorado/city2.jpg';
@@ -35,7 +34,7 @@ function Colorado() {
             <img width="" src="https://www.planetware.com/photos-tiles/colorado-denver-city-view-and-mountains.jpg" alt="denver"/>
             <p>When can we move there?
             </p>
-            <Swiper
+            <Carousel
                   modules={[Navigation, Pagination, Scrollbar ]}
                   navigation
                   pagination={{ clickable: true }}
@@ -46,86 +45,61 @@ function Colorado() {
     //   onSlideChange={() => console.log('slide change')}
     //   onSwiper={(swiper) => console.log(swiper)}
     >
-                <SwiperSlide>
                     <div className="slide-content">
                     <img src={Us1} alt="us1" height="360px"/>
                     <p className="legend">Red Rocks</p>
                     </div>
-                </SwiperSlide>
-                <SwiperSlide>
                 <div className="slide-content">
                     <img src={Us2} alt="us2" height="360px"/>
                     <p className="legend">Nice and Quiet AirBnB</p>
                     </div>
-                </SwiperSlide>
-                <SwiperSlide>
                 <div className="slide-content">
                     <img src={City1} alt="city1" height="360px"/>
                     <p className="legend">Fun in the city</p>
                     </div>
-                </SwiperSlide>
-                <SwiperSlide>
                 <div className="slide-content">
                     <img src={City2} alt="city2" height="360px"/>
                     <p className="legend">More cutie in the Red Rocks</p>
                     </div>
-                </SwiperSlide>
-                <SwiperSlide>
                 <div className="slide-content">
                     <img src={City3} alt="city3" height="360px"/>
                     <p className="legend">Fun in the city</p>
                     </div>
-                </SwiperSlide>
-                <SwiperSlide>
                 <div className="slide-content">
                     <img src={City4} alt="city4" height="360px"/>
                     <p className="legend">Fun in the city</p>
                     </div>
-                </SwiperSlide>
-                <SwiperSlide>
                 <div className="slide-content">
                     <img src={City5} alt="city5" height="360px"/>
                     <p className="legend">Fun in the city</p>
                     </div>
-                </SwiperSlide>
-                <SwiperSlide>
                 <div className="slide-content">
                     <img src={Food1} alt="Food1" height="360px"/>
                     <p className="legend">Fun in the city</p>
                     </div>
-                </SwiperSlide>
-                <SwiperSlide>
                 <div className="slide-content">
                     <img src={Food2} alt="Food2" height="360px"/>
                     <p className="legend">Fun in the city</p>
                     </div>
-                </SwiperSlide>
-                <SwiperSlide>
                 <div className="slide-content">
                     <img src={Food3} alt="Food3" height="360px"/>
                     <p className="legend">Fun in the city</p>
                     </div>
-                </SwiperSlide>
-                <SwiperSlide>
                 <div className="slide-content">
                     <img src={Mtn1} alt="Mtn1" height="360px"/>
                     <p className="legend">Fun in the city</p>
                     </div>
-                </SwiperSlide>
-                <SwiperSlide>
                 <div className="slide-content">
                     <img src={Mtn2} alt="Mtn2" height="360px"/>
                     <p className="legend">Fun in the city</p>
                     </div>
-                </SwiperSlide>
-                <SwiperSlide>
+
                 <div className="slide-content">
                     <img src={Mtn3} alt="Mtn3" height="360px"/>
                     <p className="legend">Fun in the city</p>
                     </div>
-                </SwiperSlide>
 
-    </Swiper>
+    </Carousel>
             {clue}
         </div>
     );
