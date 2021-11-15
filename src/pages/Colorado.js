@@ -31,13 +31,15 @@ function Colorado() {
         <div className="Colorado">
             <h2>A Week in Paradise
             </h2>
-            <img width="" src="https://www.planetware.com/photos-tiles/colorado-denver-city-view-and-mountains.jpg" alt="denver"/>
-            <p>When can we move there?
+            <img width="" src="https://www.planetware.com/wpimages/2019/12/colorado-in-pictures-beautiful-places-to-photograph-vail-piney-lake.jpg" alt="denver"/>
+            <p>Our first real trip together. When can we move there? (no seriously)
             </p>
+            <p>Some of my favorite pictures:
+                </p>
             <Carousel autoPlay infiniteLoop centerMode>
                     <div className="slide-content">
                     <div><img src={Us1} alt="us1" /></div>
-                    <p className="legend">Cuties in the Red Rocks</p>
+                    <p className="legend">Cuties in the garden</p>
                     </div>
                 <div className="slide-content">
                     <div><img src={Us2} alt="us2" /></div>
@@ -96,6 +98,9 @@ function Colorado() {
                     </div>
 
     </Carousel>
+        <p>
+            Where should we go for our <strong>next adventure</strong>?
+            </p>
             {clue}
         </div>
     );

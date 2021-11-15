@@ -4,7 +4,7 @@ import Clue from '../Clue.js';
 import './Pages.css';
 const clue = (<Clue
     label={<span>Once the bubby has absorbed about 2/3 of the liquid in the pool, <strong>click here</strong> for your next clue</span>}
-    content={<span>When all is said and done, there the queen goes to rest her head.</span>} />)
+    content={<span>When the day begins and its already time for bed, there the queen goes to rest her head.</span>} />)
 function DunkPool() {
     return (
         <div className="DunkPool">
