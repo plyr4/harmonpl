@@ -98,6 +98,18 @@ function Colorado() {
                     </div>
 
     </Carousel>
+
+<p>
+        Here are some awesome places we can check out the next time we are in Colorado:
+    </p>
+    <p><h4>Great Sand Dunes National Park and Preserve</h4><img alt="CO" width="480px" src="https://www.planetware.com/wpimages/2019/12/colorado-in-pictures-beautiful-places-to-photograph-great-sand-dunes-national-park.jpg" />
+    </p>
+    <p><h4>Crested Butte (skiing)</h4><img alt="CO" width="480px" src="https://www.planetware.com/wpimages/2019/12/colorado-in-pictures-beautiful-places-to-photograph-crested-butte.jpg" />
+    </p>
+    <p><h4>Book Cliffs (hiking)</h4><img alt="CO" width="480px" src="https://www.planetware.com/wpimages/2019/12/colorado-in-pictures-beautiful-places-to-photograph-book-cliffs.jpg" />
+    </p>
+    <p><h4>Telluride</h4><img alt="CO" width="480px" src="https://www.planetware.com/wpimages/2019/12/colorado-in-pictures-beautiful-places-to-photograph-telluride.jpg" />
+    </p>
         <p>
             Where should we go for our <strong>next adventure</strong>?
             </p>
