@@ -5,8 +5,8 @@ import './Pages.css';
 
 
 const clue = (<Clue
-    label={<span>Once you've watched an entire season in bed, <strong>click here</strong> for your next clue</span>}
-    content={<span>The best place to go if you need a bath, or if you're too hot and just want to chill out. Some might say it's a great place to quench a massive thirst.</span>} />)
+    label={<span>Once you've watched an <strong>entire season of Gilmore Girls</strong> (or half of a Harry Potter movie) in bed, <strong>click here</strong> for your next clue</span>}
+    content={<span>The best place to go if you need a bath, or if your fur is too hot and you just want to chill out. Some might say it's a great place to quench a massive thirst.</span>} />)
 
 
 function Projector() {
@@ -34,7 +34,6 @@ function Projector() {
                 allowFullScreen
                 title="Embedded youtube"
             />
-            <br />
             <br />
             <br />
             <p> You can be the pot OR the kettle, biotch!
