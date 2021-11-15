@@ -1,0 +1,10 @@
+.slide-content div {
+    height: 360px;
+    margin-bottom: 7rem;
+}
+
+.slide-content div img {
+    height: 100%;
+    width: auto!important;
+}
+
