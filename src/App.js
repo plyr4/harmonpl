@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 import Projector from './pages/Projector';
 import RecordPlayer from './pages/RecordPlayer';
+import Switch from './pages/Switch';
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/projector" element={<Projector />} />
           <Route exact path="/evilpowermaster" element={<EvilPowerMaster />} />
           <Route exact path="/tunes" element={<RecordPlayer />} />
+          <Route exact path="/switch" element={<Switch />} />
           <Route exact path="/dunkpool" element={<DunkPool />} />
           <Route exact path="/bubbybed" element={<BubbyBed />} />
           <Route exact path="/colorado" element={<Colorado />} />

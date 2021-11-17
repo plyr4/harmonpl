@@ -24,7 +24,7 @@ import './Pages.css';
 
  
 const clue = (<Clue
-    label={<span>Once you have at least one destination idea in mind, <strong>click here</strong> and proceed to the next clue</span>}
+    label={<span>Once you have at least one destination idea in mind, <strong>Click Here</strong> and proceed to the next clue</span>}
     content={<span>A snapshot in time on top of the world. If I looked down, I would have hurled.</span>} />)
 function Colorado() {
     return (

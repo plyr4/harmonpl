@@ -11,18 +11,18 @@ import Pam7 from '../img/pam/pam7.jpg';
 import Pam8 from '../img/pam/pam8.jpg';
 import './Pages.css';
 const clue = (<Clue
-    label={<span>Once the bubby is nice and cozy, <strong>Click Here</strong> and proceed to the next clue</span>}
-    content={<span>A snapshot in time on top of the world. If I looked down, I would have hurled.</span>} />)
-function BubbyBed() {
+    label={<span>Did you make it to 100 shrines? How about.... at least 200 Korok seeds? <strong>Click Here</strong> and proceed to the next clue</span>}
+    content={<span>Draw the shades, pop some popcorn, and forget the outside world even exists.</span>} />)
+function Switch() {
     return (
-        <div className="BubbyBed">
-            <h2>A Sofa of Perfect Proportion
+        <div className="Switch">
+            <h2>When Real Life isnt cutting it
             </h2>
-            <p>Our Big Momma's favorite cushy bed.
+            <p>When Real Life isnt cutting it.
             </p>
             <p><img src={Pam1} alt="pam" width="360px"/></p>
 
-            <p>Here's a collection of some of my most comfy pictures of our little chunk.
+            <p>
                 </p>
                 <p>Sweet dreams in the comfort of her sofa.</p> 
                 <p><img src={Pam4} alt="pam" width="360px"/></p>
@@ -43,4 +43,4 @@ function BubbyBed() {
     );
 }
     
-export default BubbyBed;
+export default Switch;

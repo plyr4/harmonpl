@@ -3,7 +3,7 @@
 import Clue from '../Clue.js';
 import './Pages.css';
 const clue = (<Clue
-    label={<span>After listening to Nora Jones <strong>at least twice</strong>, <strong>click here</strong> for your next clue</span>}
+    label={<span>After listening to Nora Jones <strong>at least twice</strong>, <strong>Click Here</strong> for your next clue</span>}
     content={<span>Remember the role-playing barbeque where we defeated the greatest evil in the known universe?</span>} />)
 function RecordPlayer() {
     return (

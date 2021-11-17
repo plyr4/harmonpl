@@ -10,7 +10,7 @@ import './Pages.css';
 class EvilPowerMaster extends React.Component {
     clue = (<Clue
         label={<span><strong>Click Here</strong> for your next clue</span>}
-        content={<span>Draw the shades, pop some popcorn, and forget the outside world even exists.</span>} />)
+        content={<span>where virtual worlds collide, townsfolk, farming, gliding and finding seeds.</span>} />)
 
     constructor(props) {
         super(props);
@@ -23,6 +23,8 @@ class EvilPowerMaster extends React.Component {
         return (<div>
             <h2>A Date with Destiny
             </h2>
+            <p> Defeat the Evil Power Master to earn your next clue!</p>
+            <br/>
             <p>"<strong>HA HAH AH AHA HA YOU THOUGHT YOU SAW THE LAST OF ME?</strong>"</p>
             <p>"<strong>DONT MAKE ME LAUGH!</strong>"</p>
             <p>

@@ -3,7 +3,7 @@ import harmonplPic from '../img/harmonpl.png';
 import Sticky from '../img/sticky.png';
 import './Pages.css';
 
-const clue = (<Clue label={<span>To get started, click here for your first clue</span>} content={<span>You might argue without <strong>this</strong>, Nora Jones would have no voice.</span>} />)
+const clue = (<Clue label={<span>To get started, Click Here for your first clue</span>} content={<span>You might argue without <strong>this</strong>, Nora Jones would have no voice.</span>} />)
 
 function Home() {
 
