@@ -1,9 +1,9 @@
 
 
 import React from 'react';
-import './Clue.scss';
-import { useNavigate } from 'react-router-dom';
 import Loader from "react-loader-spinner";
+import { useNavigate } from 'react-router-dom';
+import './Clue.scss';
 
 class Clue extends React.Component {
     constructor(props) {
@@ -57,12 +57,13 @@ class Clue extends React.Component {
 
 function validCode(code) {
     let validCodes = [
-        "tunes",
+        "bubbybed",
+        "colorado",
+        "dunkpool",
         "evilpowermaster",
         "projector",
-        "dunkpool",
-        "bubbybed",
-        "colorado"
+        "tunes",
+        "switch"
     ]
     return validCodes.includes(code)
 }
