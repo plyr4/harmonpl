@@ -57,10 +57,10 @@ class Clue extends React.Component {
 
 function validCode(code) {
     let validCodes = [
-        "bubbybed",
+        "sofa",
         "colorado",
-        "dunkpool",
-        "evilpowermaster",
+        "dunk",
+        "epm",
         "projector",
         "tunes",
         "switch"

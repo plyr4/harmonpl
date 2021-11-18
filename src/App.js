@@ -16,11 +16,11 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/projector" element={<Projector />} />
-          <Route exact path="/evilpowermaster" element={<EvilPowerMaster />} />
+          <Route exact path="/epm" element={<EvilPowerMaster />} />
           <Route exact path="/tunes" element={<RecordPlayer />} />
           <Route exact path="/switch" element={<Switch />} />
-          <Route exact path="/dunkpool" element={<DunkPool />} />
-          <Route exact path="/bubbybed" element={<BubbyBed />} />
+          <Route exact path="/dunk" element={<DunkPool />} />
+          <Route exact path="/sofa" element={<BubbyBed />} />
           <Route exact path="/colorado" element={<Colorado />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

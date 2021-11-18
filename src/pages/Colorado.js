@@ -2,9 +2,7 @@
 
 // Import Swiper styles
 // Import Swiper React components
-import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Clue from '../Clue.js';
 import City1 from '../img/colorado/city1.jpg';
 import City2 from '../img/colorado/city2.jpg';
 import City3 from '../img/colorado/city3.jpg';
@@ -19,13 +17,15 @@ import Mtn3 from '../img/colorado/mtn3.jpg';
 import Mtn4 from '../img/colorado/mtn4.jpg';
 import Us1 from '../img/colorado/us1.jpg';
 import Us2 from '../img/colorado/us2.jpg';
+import Done1 from '../img/done1.jpg';
+import Done2 from '../img/done2.jpg';
+import Done3 from '../img/done3.jpg';
+import Done4 from '../img/done4.jpg';
 import './Pages.css';
 
 
  
-const clue = (<Clue
-    label={<span>Once you have at least one destination idea in mind, <strong>Click Here</strong> and proceed to the next clue</span>}
-    content={<span>A snapshot in time on top of the world. If I looked down, I would have hurled.</span>} />)
+
 function Colorado() {
     return (
         <div className="Colorado">
@@ -36,68 +36,66 @@ function Colorado() {
             </p>
             <p>Some of my favorite pictures:
                 </p>
-            <Carousel autoPlay infiniteLoop centerMode>
                     <div className="slide-content">
-                    <div><img src={Us1} alt="us1" /></div>
                     <p className="legend">Cuties in the garden</p>
+                    <div><img src={Us1} alt="us1" /></div>
                     </div>
                 <div className="slide-content">
-                    <div><img src={Us2} alt="us2" /></div>
                     <p className="legend">What a wonderful place to stay</p>
+                    <div><img src={Us2} alt="us2" /></div>
                     </div>
                 <div className="slide-content">
-                    <div><img src={City1} alt="city1" /></div>
                     <p className="legend">Cheesin' at the rocks</p>
+                    <div><img src={City1} alt="city1" /></div>
                     </div>
                 <div className="slide-content">
-                    <div><img src={City2} alt="city2" /></div>
                     <p className="legend">Gettin brews with my boos</p>
+                    <div><img src={City2} alt="city2" /></div>
                     </div>
 
                 <div className="slide-content">
-                    <div><img src={City4} alt="city4" /></div>
                     <p className="legend">I wouldn't mess with them</p>
+                    <div><img src={City4} alt="city4" /></div>
                     </div>
                 <div className="slide-content">
-                    <div><img src={City5} alt="city5" /></div>
                     <p className="legend">Gay means cool</p>
+                    <div><img src={City5} alt="city5" /></div>
                     </div>
                     <div className="slide-content">
-                    <div><img src={City3} alt="city3" /></div>
                     <p className="legend">Solidarity!</p>
+                    <div><img src={City3} alt="city3" /></div>
                     </div>
                 <div className="slide-content">
-                    <div><img src={Food1} alt="Food1" /></div>
                     <p className="legend">Best. Breakfast. Ever.</p>
+                    <div><img src={Food1} alt="Food1" /></div>
                     </div>
                 <div className="slide-content">
-                    <div><img src={Food2} alt="Food2" /></div>
                     <p className="legend">My view, is the best view.</p>
+                    <div><img src={Food2} alt="Food2" /></div>
                     </div>
                 <div className="slide-content">
-                    <div><img src={Food3} alt="Food3" /></div>
                     <p className="legend">Scrumptious sweets for the sweetie</p>
+                    <div><img src={Food3} alt="Food3" /></div>
                     </div>
                 <div className="slide-content">
-                    <div><img src={Mtn1} alt="Mtn1" /></div>
                     <p className="legend">On top of the world</p>
+                    <div><img src={Mtn1} alt="Mtn1" /></div>
                     </div>
                 <div className="slide-content">
-                    <div><img src={Mtn2} alt="Mtn2" /></div>
                     <p className="legend">Born to climb</p>
+                    <div><img src={Mtn2} alt="Mtn2" /></div>
                     </div>
 
                     <div className="slide-content">
-                    <div><img src={Mtn3} alt="Mtn3" /></div>
                     <p className="legend">My feet are doing <i>the thing</i></p>
+                    <div><img src={Mtn3} alt="Mtn3" /></div>
                     </div>
 
                     <div className="slide-content">
+                    <p className="legend">You were so good, impressive</p>
                     <div><img src={Mtn4} alt="Mtn4" /></div>
-                    <p className="legend">You were extremely good at that</p>
                     </div>
 
-    </Carousel>
 
 <p>
         Here are some awesome places we can check out the next time we are in Colorado:
@@ -113,7 +111,18 @@ function Colorado() {
         <p>
             Where should we go for our <strong>next adventure</strong>?
             </p>
-            {clue}
+
+            <p>I'm thinking somewhere <i>warm</i>.
+                </p>
+                <p>
+                Well... That's it! That was the last sticky-note. Thanks for playing! I love you, and happy birthday.<br /> 
+                    </p>
+    <p>Bonus Pictures!</p><br />
+    <img alt="done" width="360px" src={Done1}/><br/>
+    <img alt="done" width="360px" src={Done2}/><br/>
+    <img alt="done" width="360px" src={Done3}/><br/>
+    <img alt="done" width="360px" src={Done4}/><br/>
+
         </div>
     );
 }

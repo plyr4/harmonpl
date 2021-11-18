@@ -9,8 +9,8 @@ import './Pages.css';
 
 class EvilPowerMaster extends React.Component {
     clue = (<Clue
-        label={<span><strong>Click Here</strong> for your next clue</span>}
-        content={<span>where virtual worlds collide, townsfolk, farming, gliding and finding seeds.</span>} />)
+        label={<span>Nice work hero. <strong>Click Here</strong> for your next clue</span>}
+        content={<span>Draw the shades, pop some popcorn, and forget the outside world even exists.</span>} />)
 
     constructor(props) {
         super(props);
@@ -63,7 +63,7 @@ class EvilPowerMaster extends React.Component {
     }
 
     makeChoice(choice) {
-        this.setState({ choice: choice })
+        this.setState({ choice: choice, roll: -1 })
     }
 
     rollDoneCallback(num) {
@@ -95,7 +95,6 @@ class EvilPowerMaster extends React.Component {
         if (this.state.roll <= 3) {
             return <div><p>Dante notices a price tag on the Power Master's blue jeans and initiates a hasty compliment.</p>
             <p>"Are those.... Are those the bootcut highrises from Levi's mens' denim fall collection?" Dante pleads.</p>
-            <br/>
             <p>Dante sees his dark gaze break for a moment, but the hope disipates: "Are you making a joke? Do you think that's funny?"</p>
             <p>The Master leans down and exclaims "HAHA. You wouldn't know fall collection if it bit you in the exhaust pipe."</p>
             <p>As he approaches, you notice the "Goodfellow" branding clear across the belt loops.</p>
