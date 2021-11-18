@@ -62,16 +62,16 @@ function Switch() {
                 <p>But my favorite part of this virtual world is sharing it with you.</p>
                 <p><img width="720px"  src="https://cdn.arstechnica.net/wp-content/uploads/2021/03/Screenshot-703-760x380.png" alt="pam"/></p>
 
-                <p>Even if that means sometimes accidentally lighting each other on fire...
+                <p>Even if that means sometimes accidentally lighting each other on fire in Divinity...
                     </p>
                     <p><img width="720px"  src="https://guides.gamepressure.com/originalsinii/gfx/word/347465285.jpg" alt="pam"/></p>
 
-                    <p>And learning the hard way, that some games just aren't for us. (too stressful!)
+                    <p>And learning the hard way that some games just aren't for us, even though we love cooking. (too stressful!)
                     </p>
                     <p><img width="720px"  src="https://www.mobygames.com/images/shots/l/888810-overcooked-windows-screenshot-cooking-on-wheels.png" alt="pam"/></p>
 
 
-                    <p>I can't wait to find out what whacky things we get into next.
+                    <p>And I just can't wait to find out what whacky things we get into next!
                     </p>
                     <p><img width="720px"  src="https://www.pcinvasion.com/wp-content/uploads/2020/12/The-Game-Awards-2020-Official-Stream-4K-Video-Games-Biggest-Night-Live-2-27-42-screenshot-800x400.jpg" alt="pam"/></p>
 
