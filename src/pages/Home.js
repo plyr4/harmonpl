@@ -30,17 +30,15 @@ function Home() {
         <p>
           Once you find a sticky-note, it will have a <code><strong>CODE</strong></code> written on it.
         </p>
-        
+        </div>
+        <div className="div2"><img src={Sticky} width="240px" alt="sticky" /></div>
+        </div>
         <p>
           With code-in-hand, head to the bottom of this page (or any page on this website) and enter the code from the sticky note. (in this example, <code>abc123</code>)</p>
           <p>Click "Check".</p><p> If you entered a valid code, it will send you to the next part of the adventure, which is just another page on this website.
           </p>
           <p>Look for the next clue at the bottom of each page, then go searching again! Don't worry, the hints should be pretty obvious.
         </p>
-        </div>
-        <div className="div2"><img src={Sticky} width="240px" alt="sticky" /></div>
-        </div>
-
         {clue}
       </div>
     </div>
